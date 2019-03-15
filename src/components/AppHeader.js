@@ -12,6 +12,6 @@ export default ({ onToggle, children }) => (
     >
       <FA icon={faBars} />
     </button>
-    { children }
+   { children }
   </nav>
 )

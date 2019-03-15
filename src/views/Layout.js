@@ -1,8 +1,8 @@
-import '../App.min.css';
 import React, { Component } from 'react';
 import AppHeader from '../components/AppHeader';
 import SideMenu from '../components/SideMenu';
 import NavSearch from '../components/NavSearch'
+import NavBar from '../components/nav/NavBar';
 
 class Layout extends Component {
   state = {
@@ -19,6 +19,7 @@ class Layout extends Component {
       <div>
         <AppHeader onToggle={this.onToggle}>
           <NavSearch />
+          <NavBar />
         </AppHeader>
         <div id="wrapper">
           <SideMenu toggled={this.state.sideMenu} />
