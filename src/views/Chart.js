@@ -52,7 +52,7 @@ export default class RandomChart extends Component {
       <div className="container-fluid bg-light">
         <ol className="breadcrumb">
           <li className="breadcrumb-item">
-            <a href="/#">{APP_NAME}</a>
+            <a href="./#">{APP_NAME}</a>
           </li>
           <li className="breadcrumb-item active">Random Line Chart</li>
         </ol>

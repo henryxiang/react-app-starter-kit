@@ -11,7 +11,7 @@ export default ({ title, faIcon, type = 'primary' }) => (
         </div>
         <div className="mr-5">{title}</div>
       </div>
-      <a className="card-footer text-white clearfix small z-1" href="/#">
+      <a className="card-footer text-white clearfix small z-1" href="./#">
         <span className="float-left">View Details</span>
         <span className="float-right">
           <FA icon={svgIcon.faAngleRight} />

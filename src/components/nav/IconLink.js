@@ -11,7 +11,7 @@ const styles = {
 };
 
 export default ({ faIcon, badge = null, type =  "danger" }) => (
-  <a className="nav-link dropdown-toggle" href="/#" role="button" 
+  <a className="nav-link dropdown-toggle" href="./#" role="button" 
       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
   >
     <FA icon={svgIcon[faIcon]} />
